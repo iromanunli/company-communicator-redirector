@@ -8,6 +8,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      parameter:
+        description: My Parameter
 
 jobs:
   build:
